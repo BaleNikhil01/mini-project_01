@@ -1,4 +1,4 @@
-# Day 7 — Flask → Docker → ECR → EC2
+# Flask → Docker → ECR → EC2
 
 ## Project Overview
 
