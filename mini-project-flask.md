@@ -273,11 +273,6 @@ docker ps
 
 worked without `sudo`.
 
-### 5. ECR login vs Docker permissions
-
-Docker was authenticated as the `ubuntu` user, but `sudo docker pull` used root's Docker configuration and therefore had no ECR credentials.
-
-**Lesson:** Avoid mixing `docker` and `sudo docker`. Configure the user to access Docker and consistently use `docker`.
 
 ## Takeaways
 
@@ -297,8 +292,6 @@ Able to explain:
 
 ```text
 Code
- ↓
-GitHub
  ↓
 Dockerfile
  ↓
